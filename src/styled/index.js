@@ -1,5 +1,0 @@
-export * from './Title'
-export * from './Button'
-export * from './Modal/StyledModal'
-export * from './StyledBox'
-export * from './page'
