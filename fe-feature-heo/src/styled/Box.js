@@ -16,3 +16,24 @@ margin-top:100px;
 display: flex;
 flex-direction: column;
 `
+/**
+ *@param width : width
+ *@param height : height
+ *@param borderradius : border-raius
+ *@param bordercolor : border-color 
+ **/
+export const SearchBox = styled.div`
+width: ${props => props.width};
+height: ${props => props.height};
+flex-shrink: 0;
+border-radius: ${props => props.borderradius || '10px'};
+border: 1.7px solid ${props => props.bordercolor};
+background: #FAFAFA;
+margin-top : 3%;
+align-items:center;
+display:flex;
+
+img{
+    margin-right: 10px;
+}
+`
