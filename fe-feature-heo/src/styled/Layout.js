@@ -31,7 +31,14 @@ width:6em;
 height:2.5em;
 margin-left:42px;
 `
+/**
+ * @param flexdirection : flex-direction
+ */
 export const BtnBox = styled.div`
   display : flex;
+  flex-direction:${props=>props.flexdirection || 'raw'};
   margin-right:${props => props.marginright || 'auto'};
+  align-items:${props=>props.align};
+  justify-content:${props=>props.justify};
+  text-align:center;
 `
